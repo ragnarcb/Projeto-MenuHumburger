@@ -1,0 +1,45 @@
+/* Estilo padrão da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+.botao img {
+  width: 24px; /* Defina a largura desejada para o SVG */
+  height: auto; /* Mantenha a proporção da altura */
+  margin-right: 8px; /* Adicione um espaço à direita da imagem */
+  fill: white;
+}
+/* Estilo do botão */
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Estilo do conteúdo do dropdown (escondido por padrão) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0B0D12;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Estilo dos links no dropdown */
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Mudar a cor do link quando passar o mouse */
+.dropdown-content a:hover {background-color: #f1f1f165;}
+
+/* Mostrar o dropdown quando o botão for clicado */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
